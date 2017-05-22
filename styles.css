@@ -1,0 +1,45 @@
+/* add your CSS here */
+
+/*What I did was add padding to the whole card body then tweak
+(lessen in most cases) the padding in the individual classes like the UL
+Don't know if that's fair practice :(    */
+
+/*The whole card goes here (for outer border)*/
+.cardBody {
+  width: 300px;
+  border: solid 1px #D2D2D2;
+  padding: 12px;
+  box-shadow: 8px 8px 1px #eae9e9;
+  padding-top: 0px
+}
+
+/*bottom half of the card*/
+.cardInfo{
+  border: solid 1px #D2D2D2;
+  padding: 12px;
+  padding-top: 0px;
+}
+
+/*Individual elements I needed to edit for spacing and formatting*/
+.name {
+  padding-bottom: 2px;
+}
+
+.photo {
+  padding-bottom: 10px;
+}
+
+.interestingFact {
+  font-style: italic;
+
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.listItems {
+  font-weight: bold;
+
+}
